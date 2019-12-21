@@ -1,0 +1,22 @@
+{
+  "name": "first-node-app",
+  "version": "1.0.0",
+  "description": "first-node-app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shin-iji/first-node-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shin-iji/first-node-app/issues"
+  },
+  "homepage": "https://github.com/shin-iji/first-node-app#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3"
+  }
+}
