@@ -3,4 +3,9 @@ const Settings = {
     userPasss: 'ktD234BzKYjW22_!!rj',
     databaseName: 'iosthailandDatabase'                    
 }
-module.exports = Settings
+const getSecretKey = () => {
+    return Settings.secretKey
+}
+module.exports.getSecretKey = getSecretKey
+module.exports.userPasss = Settings.userPasss
+module.exports.databaseName = Settings.databaseName

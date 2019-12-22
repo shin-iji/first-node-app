@@ -1,3 +1,3 @@
-const settings = require('./setting')
-const databaseName = settings.databaseName
+const {getSecretKey, databaseName} = require('./setting')
+console.log(getSecretKey())
 console.log(databaseName)
