@@ -3,7 +3,7 @@ const myAsync = (callback) => {
     setTimeout(() => {
         const result = callback('Hello');
         console.log(result);
-    }, 2000);
+    }, 0);
     console.log('Finish');
 }
 myAsync((message) => {
