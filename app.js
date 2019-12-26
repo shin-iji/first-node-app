@@ -1,10 +1,11 @@
-const step1 = () => {
+const myAsync = (callback) => {
+    console.log('Start');
     setTimeout(() => {
-        console.log('The First Step.')
-    }, 3000)
+        const result = callback('Hello');
+        console.log(result);
+    }, 2000);
+    console.log('Finish');
 }
-const step2 = () => {
-    console.log('The Second Step')
-}
-step1()
-step2()
+myAsync((message) => {
+    return message + ' Async.';
+});
